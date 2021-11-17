@@ -24,27 +24,29 @@ Your calculator will work as follows:
 
 2.  Prompt for, and accept, an operation. The operations are as follows:
 
-  \+       addition                    binary
-  \-       subtraction                 binary
-  x        multiplication              binary
-  /        division                    binary
-  \^       exponentiation              binary
-  sin      sine                        unary
-  cos      cosine                      unary
-  tan      tangent                     unary
-  arcsin   inverse sine                unary
-  arccos   inverse cosine              unary
-  arctan   inverse tangent             unary
-  root     square root                 unary
-  abs      remove sign                 unary
-  inv      $$1/x$$                     unary
-  log      $$\log_{10}x$$              unary
-  log2     $$\log_{2}x$$               unary
-  sto      store (only accepts 0-9)    binary
-  rcl      recall (only accepts 0-9)   unary
-  c        clear                       special
-  ca       clear all                   special
-  q        quit                        special
+| op     | opname                     | type    |
+|--------|----------------------------|---------|
+| +      | addition                   | binary  |
+| -      | subtraction                | binary  |
+| x      | multiplication             | binary  |
+| /      | division                   | binary  |
+| ^      | exponentiation             | binary  |
+| sin    | sine                       | unary   |
+| cos    | cosine                     | unary   |
+| tan    | tangent                    | unary   |
+| arcsin | inverse sine               | unary   |
+| arccos | inverse cosine             | unary   |
+| arctan | inverse tangent            | unary   |
+| root   | square root                | unary   |
+| abs    | remove sign                | unary   |
+| inv    | 1/x                        | unary   |
+| log    | log_{10}x                  | unary   |
+| log2   | log_{2}x                   | unary   |
+| sto    | store (only accepts 0-9)   | binary  |
+| rcl    | recall  (only accepts 0-9) | unary   |
+| c      | clear                      | special |
+| ca     | clear all                  | special |
+| q      | quit                       | special |
 
 3.  If the operation is a binary operation, prompt for, and accept, another number.
 
